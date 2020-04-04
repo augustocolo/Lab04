@@ -9,7 +9,9 @@ public class TestDB {
 		 */
 		
 		CorsoDAO cdao = new CorsoDAO();
-		cdao.getTuttiICorsi();
+		System.out.println(cdao.getTuttiICorsi());
+		System.out.println(cdao.getCorso("01KSUPG"));
+		System.out.println("01KSUPG");
 		
 		
 	}
